@@ -35,7 +35,7 @@ hr {
     color: #FFFFFF !important;
     border: none !important;
     outline: none !important;
-    width: 140px;
+    width: 160px;
     height: 50px;
 }
 
@@ -594,7 +594,141 @@ li .active {
     color: #52C3D6;
 }
 
+.componies div {
+    margin-right: 8%;
+}
+
+.componies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /**Style partners */
+
+/**hoisting */
+.hoisting {
+    text-align: center;
+    margin: 180px auto;
+    background: radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+}
+
+.hoisting .containerimageBuild {
+    width: 70%;
+    margin: auto;
+}
+
+.hoisting .containerimageBuild .imageBuild {
+    margin-top: 55px;
+    width: 100%;
+}
+
+.hoisting div p:first-child {
+    text-transform: uppercase;
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52C3D6;
+
+}
+
+.hoisting #tedOff {
+    text-transform: capitalize;
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/**hoisting */
+
+
+/**testimonials Style */
+.success p:first-child {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #52C3D6;
+}
+
+.success h2 {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 75%;
+}
+
+.succOne {
+    background: radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%);
+    text-align: center;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin-right: 10px;
+    padding: 25px;
+    margin-right: 10px !important;
+}
+
+.succOne h3 {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.succOne p {
+    font-family: Red Hat Display;
+    font-size: 10.68px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-align: center;
+    color: white;
+}
+
+.succOne .name {
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.quote i{
+    font-size: 80px;
+    color:#FFFFFF1A;
+    margin-top: 25px !important;
+    margin-left: -80px !important;
+}
+
+
+
+/**testimonials Style */
 
 @media(max-width:767px) {
     .heroImage {
@@ -623,7 +757,26 @@ li .active {
         flex: 0 0 48%;
         /* Two frames in a row on smaller screens */
     }
-    .minds{
+
+    .minds {
         display: none
+    }
+
+    .componies div {
+        margin-right: 20px;
+    }
+    .caursol{
+        margin-top: 15px;
+    }
+    .testimonials{
+        text-align: center;
+    }
+    .success h2{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .success p:first-child {
+        text-align: center;
     }
 }

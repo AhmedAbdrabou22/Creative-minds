@@ -1,3 +1,25 @@
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+            // Add more breakpoints if needed
+        }
+    });
+});
+
+
 window.onload = () => {
     const textElement = document.getElementById('text');
     const textToType = "APPS";
@@ -13,9 +35,8 @@ window.onload = () => {
 
     }
 
-    const typingInterval  =setInterval(type, 500);
+    const typingInterval = setInterval(type, 500);
 }
-
 
 
 
