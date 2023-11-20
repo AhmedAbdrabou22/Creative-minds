@@ -436,7 +436,7 @@ input:checked+.switch:active::before {
 .nav-link {
     color: #52c3d6 !important;
     font-family: Space Grotesk;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 23px;
     letter-spacing: 0em;
