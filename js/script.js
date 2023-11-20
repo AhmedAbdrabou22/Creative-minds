@@ -43,4 +43,7 @@ window.onload = () => {
 
 document.getElementById('username').addEventListener('click', function() {
     document.body.classList.toggle('dark-mode');
+    document.querySelectorAll('.frame').forEach((ele)=>{
+        ele.classList.toggle('frameData')
+    })
 });
