@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Rubik&family=Space+Grotesk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Rubik&family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Red+Hat+Display:wght@300&family=Rubik&display=swap");
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 hr {
-    color: #DBDBDB;
+    color: #dbdbdb;
     width: 85%;
 }
 
@@ -31,8 +31,8 @@ hr {
 }
 
 .btnNavbar {
-    background: linear-gradient(to right, #EB2F4A, #941225);
-    color: #FFFFFF !important;
+    background: linear-gradient(to right, #eb2f4a, #941225);
+    color: #ffffff !important;
     border: none !important;
     outline: none !important;
     width: 160px;
@@ -47,30 +47,30 @@ hr {
     border: none !important;
 }
 
-
 .switch {
     display: inline-block;
     position: relative;
     width: 50px;
     height: 25px;
     border-radius: 20px;
-    background: #1C344C;
+    background: #1c344c;
     transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
     vertical-align: middle;
     cursor: pointer;
 }
 
 .switch::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 1px;
     left: 2px;
     width: 22px;
     height: 22px;
     background: url("../images/moon.png") center/contain no-repeat !important;
-    ;
     border-radius: 50%;
-    transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+        background 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .switch:active::before {
@@ -78,7 +78,7 @@ hr {
 }
 
 input:checked+.switch {
-    background: #1C344C;
+    background: #1c344c;
 }
 
 input:checked+.switch::before {
@@ -104,7 +104,6 @@ input:checked+.switch:active::before {
     position: absolute;
     top: -130%;
     left: 0;
-
 }
 
 .heroImage {
@@ -118,12 +117,12 @@ input:checked+.switch:active::before {
     font-weight: 700;
     font-size: 70px;
     line-height: 82.94px;
-    color: #1C344C;
+    color: #1c344c;
     width: 100%;
 }
 
 .heroImage p span {
-    color: #52C3D6;
+    color: #52c3d6;
 }
 
 .heroImage p:last-child {
@@ -166,7 +165,7 @@ input:checked+.switch:active::before {
 .endOfDiv {
     width: 100%;
     color: white;
-    background-color: #1C344C;
+    background-color: #1c344c;
     box-shadow: 0px 0px 27px 0px #00000040;
     margin-top: 150px;
     padding: 20px;
@@ -185,25 +184,24 @@ input:checked+.switch:active::before {
 }
 
 .achieves .achivesNext div {
-    border-right: 1px solid #1C344C1A;
+    border-right: 1px solid #1c344c1a;
     padding: 20px;
 }
 
 .advatages .advatNext .infoAdvant {
-    border-right: 1px solid #1C344C1A;
-    border-top: 1px solid #1C344C1A;
+    border-right: 1px solid #1c344c1a;
+    border-top: 1px solid #1c344c1a;
     padding: 20px;
 }
 
 .advatages .advatNext2 .infoAdvant {
-    border: 1px solid #1C344C1A;
+    border: 1px solid #1c344c1a;
     padding: 20px;
     margin: 5px;
 }
 
-
 .achieves .achivesNext div h3 {
-    color: #49C3D3;
+    color: #49c3d3;
     font-family: Red Hat Display;
     font-weight: 900;
     font-size: 35px;
@@ -216,14 +214,14 @@ input:checked+.switch:active::before {
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .achieves .achivesNext {
     text-align: center;
 }
 
-.containerImage, .containerImage2 {
+.containerImage,
+.containerImage2 {
     width: 80px;
     height: 80px;
     margin: auto;
@@ -240,7 +238,7 @@ input:checked+.switch:active::before {
 }
 
 .containerImage img {
-    color: #FFBD4E;
+    color: #ffbd4e;
     font-size: 35px;
 }
 
@@ -250,7 +248,7 @@ input:checked+.switch:active::before {
     -moz-border-radius: 5px !important;
     -ms-border-radius: 5px !important;
     -o-border-radius: 5px !important;
-    background-color: #52C3D640
+    background-color: #52c3d640;
 }
 
 .infoImage p {
@@ -260,7 +258,6 @@ input:checked+.switch:active::before {
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .infoAdvant {
@@ -278,13 +275,11 @@ input:checked+.switch:active::before {
 
 .infoAdvant:hover {
     cursor: pointer;
-    background-color: #1C344C;
+    background-color: #1c344c;
     color: white;
 }
 
 /**Style Achieves */
-
-
 
 /**Style About Us */
 .about {
@@ -301,13 +296,12 @@ input:checked+.switch:active::before {
     width: 100%;
 }
 
-
 .infoAbout {
     width: 75%;
 }
 
 .infoAbout h2 {
-    color: #52C3D6;
+    color: #52c3d6;
     font-family: Space Grotesk;
     font-size: 22px;
     font-weight: 700;
@@ -349,7 +343,7 @@ input:checked+.switch:active::before {
 }
 
 .infoAbout ul li i {
-    color: #EB2F4A;
+    color: #eb2f4a;
     margin-right: 5px;
 }
 
@@ -358,7 +352,6 @@ input:checked+.switch:active::before {
 }
 
 /**Style About Us */
-
 
 /**Style Section delivery */
 .delivery {
@@ -376,8 +369,7 @@ input:checked+.switch:active::before {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #52C3D6;
-
+    color: #52c3d6;
 }
 
 .delivery h2 {
@@ -410,7 +402,6 @@ input:checked+.switch:active::before {
 /**Style Section delivery */
 /**talented */
 
-
 .talented {
     margin-top: 120px;
     background-image: url("../images/Rectangle 34.png");
@@ -424,8 +415,7 @@ input:checked+.switch:active::before {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #52C3D6;
-
+    color: #52c3d6;
 }
 
 #work {
@@ -435,7 +425,6 @@ input:checked+.switch:active::before {
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .tabs {
@@ -445,7 +434,7 @@ input:checked+.switch:active::before {
 }
 
 .nav-link {
-    color: #52C3D6 !important;
+    color: #52c3d6 !important;
     font-family: Space Grotesk;
     font-size: 25px;
     font-weight: 700;
@@ -457,7 +446,7 @@ input:checked+.switch:active::before {
 }
 
 li .active {
-    border-bottom: 4px solid #292D32 !important;
+    border-bottom: 4px solid #292d32 !important;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -470,7 +459,6 @@ li .active {
 }
 
 /**talented */
-
 
 /**Section Portflio */
 .portflio {
@@ -493,12 +481,11 @@ li .active {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    background-color: #52C3D6;
+    background-color: #52c3d6;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .bigDivPhone {
@@ -512,7 +499,7 @@ li .active {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #52C3D6;
+    color: #52c3d6;
 }
 
 .infoPortflio p:last-child {
@@ -522,14 +509,14 @@ li .active {
     line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .taxes {
     text-align: left;
 }
 
-.taxes .special, .taxes span {
+.taxes .special,
+.taxes span {
     font-family: Space Grotesk;
     font-size: 28px;
     font-weight: 700;
@@ -541,7 +528,7 @@ li .active {
 .taxes span {
     font-size: 16px;
     line-height: 20px;
-    color: #52C3D6;
+    color: #52c3d6;
 }
 
 .taxes p {
@@ -551,7 +538,7 @@ li .active {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    color: #CDCDCD;
+    color: #cdcdcd;
 }
 
 .phoneProtflio {
@@ -582,7 +569,6 @@ li .active {
 
 /**Section Portflio */
 
-
 /**Style partners */
 .partners p {
     font-family: Space Grotesk;
@@ -591,7 +577,7 @@ li .active {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #52C3D6;
+    color: #52c3d6;
 }
 
 .componies div {
@@ -609,7 +595,7 @@ li .active {
 .hoisting {
     text-align: center;
     margin: 180px auto;
-    background: radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #345d86 0%, #1c344c 100%);
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -636,8 +622,7 @@ li .active {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #52C3D6;
-
+    color: #52c3d6;
 }
 
 .hoisting #tedOff {
@@ -648,11 +633,10 @@ li .active {
     line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 /**hoisting */
-
 
 /**testimonials Style */
 .success p:first-child {
@@ -662,7 +646,7 @@ li .active {
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
-    color: #52C3D6;
+    color: #52c3d6;
 }
 
 .success h2 {
@@ -676,7 +660,7 @@ li .active {
 }
 
 .succOne {
-    background: radial-gradient(50% 50% at 50% 50%, #345D86 0%, #1C344C 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #345d86 0%, #1c344c 100%);
     text-align: center;
     border-radius: 35px;
     -webkit-border-radius: 35px;
@@ -719,18 +703,221 @@ li .active {
     text-align: center;
 }
 
-.quote i{
+.quote i {
     font-size: 80px;
-    color:#FFFFFF1A;
+    color: #ffffff1a;
     margin-top: 25px !important;
     margin-left: -80px !important;
 }
 
-
-
 /**testimonials Style */
 
-@media(max-width:767px) {
+/**Section Teams */
+.teams {
+    margin: 150px auto;
+    text-align: center;
+}
+
+.teamsintro p {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52c3d6;
+}
+
+.teamsintro h3 {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C344C;
+}
+
+.teamMember p {
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.teamMember span {
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52C3D6;
+
+}
+
+.teamMember .member {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.teamMember .member img {
+    width: 100%;
+}
+
+/**Section Teams */
+
+
+/**Section map */
+.map {
+    margin-top: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.map p {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52C3D6;
+}
+
+.map h3 {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C344C;
+}
+
+.worldMap {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.worldMap .mabImage {
+    width: 90%;
+}
+
+.shabe, .shabe2, .shabe3, .shabe4 {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 22px;
+    height: 22px;
+    background-color: #0000001f;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.shabe3, .shabe2 {
+    left: 52%;
+    top: 56%;
+    background-color: #EB2F4A;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.shabe2 {
+    left: 20%;
+    top: 50%;
+    background-color: #EB2F4A;
+}
+
+.shabe4 {
+    left: 80%;
+    top: 20%;
+}
+
+.subscripe {
+    background-image: url("../images/Rectangle 32.png");
+    background-size: cover;
+    width:75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    padding:50px;
+}
+
+.subscripe h2 {
+    font-family: Red Hat Display;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.newSteller{
+    position: relative;
+}
+#email{
+    border: 1px solid #E8E8E8;
+    outline: none;
+    width:100%;
+    padding:20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.newSteller button{
+    position: absolute;
+    left: 61%;
+    top: 13%;
+}
+/**Section map */
+
+
+/**Style Footer  */
+.footer{
+    margin-top: 150px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 10px;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.footer ul li:hover{
+    cursor: pointer;
+    color: #52C3D6;
+}
+.footerData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hr{
+    width: 100%;
+}
+/**Style Footer  */
+
+@media (max-width: 767px) {
     .heroImage {
         width: 100%;
     }
@@ -759,24 +946,35 @@ li .active {
     }
 
     .minds {
-        display: none
+        display: none;
     }
 
     .componies div {
         margin-right: 20px;
     }
-    .caursol{
+
+    .caursol {
         margin-top: 15px;
     }
-    .testimonials{
+
+    .testimonials {
         text-align: center;
     }
-    .success h2{
+
+    .success h2 {
         width: 100%;
         margin: auto;
         text-align: center;
     }
+
     .success p:first-child {
+        text-align: center;
+    }
+    .subscripe{
+        width:100%;
+    }
+    .footerData , .logoFooter{
+        margin: auto;
         text-align: center;
     }
 }
