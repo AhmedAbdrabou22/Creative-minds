@@ -869,6 +869,11 @@ li .active {
     text-align: center;
     margin-top: 80px;
     padding: 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .subscripe h2 {
