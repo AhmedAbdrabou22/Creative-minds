@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Rubik&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Karantina:wght@300&family=Red+Hat+Display:wght@300&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+hr {
+    color: #DBDBDB;
+    width: 85%;
+}
+
+.containerSpecial {
+    width: 97%;
+    margin: auto;
+}
+
+/**Style Main Header */
+.mainHeader {
+    position: relative;
+    background-image: url("../images/Group\ 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.btnNavbar {
+    background: linear-gradient(to right, #EB2F4A, #941225);
+    color: #FFFFFF !important;
+    border: none !important;
+    outline: none !important;
+    width: 140px;
+    height: 50px;
+}
+
+.img {
+    vertical-align: top !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    background: #1C344C;
+    transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.switch::before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: url("../images/moon.png") center/contain no-repeat !important;
+    ;
+    border-radius: 50%;
+    transition: left 0.28s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.switch:active::before {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28), 0 0 0 20px rgba(128, 128, 128, 0.1);
+}
+
+input:checked+.switch {
+    background: #1C344C;
+}
+
+input:checked+.switch::before {
+    left: 27px;
+    background: url("../images/moon.png") center/contain no-repeat !important;
+}
+
+input:checked+.switch:active::before {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.28), 0 0 0 20px rgba(0, 150, 136, 0.2);
+}
+
+.minds {
+    font-size: 100px;
+    color: #faf8f8;
+    font-weight: 700;
+    line-height: 255.2px;
+    text-align: center;
+    font-family: Space Grotesk;
+    /* width: 1553px; */
+    /* height: 255px; */
+    letter-spacing: 50px;
+    z-index: -1;
+    position: absolute;
+    top: -130%;
+    left: 0;
+
+}
+
+.heroImage {
+    margin: 10% auto 0px;
+    text-align: center;
+    width: 50%;
+}
+
+.heroImage .apps {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82.94px;
+    color: #1C344C;
+    width: 100%;
+}
+
+.heroImage p span {
+    color: #52C3D6;
+}
+
+.heroImage p:last-child {
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(20) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.logo {
+    margin: auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.endOfDiv {
+    width: 100%;
+    color: white;
+    background-color: #1C344C;
+    box-shadow: 0px 0px 27px 0px #00000040;
+    margin-top: 150px;
+    padding: 20px;
+    font-family: Space Grotesk;
+    font-size: 17px;
+    transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+}
+
+/**Style Achieves */
+.acievements {
+    margin-top: 55px;
+}
+
+.achieves .achivesNext div {
+    border-right: 1px solid #1C344C1A;
+    padding: 20px;
+}
+
+.advatages .advatNext .infoAdvant {
+    border-right: 1px solid #1C344C1A;
+    border-top: 1px solid #1C344C1A;
+    padding: 20px;
+}
+
+.advatages .advatNext2 .infoAdvant {
+    border: 1px solid #1C344C1A;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.achieves .achivesNext div h3 {
+    color: #49C3D3;
+    font-family: Red Hat Display;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.achieves .achivesNext div p {
+    font-family: Red Hat Display;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.achieves .achivesNext {
+    text-align: center;
+}
+
+.containerImage, .containerImage2 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fcdca4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImage img {
+    color: #FFBD4E;
+    font-size: 35px;
+}
+
+.containerImage2 {
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    background-color: #52C3D640
+}
+
+.infoImage p {
+    font-family: Space Grotesk;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.infoAdvant {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+
+.infoAdvant:hover {
+    cursor: pointer;
+    background-color: #1C344C;
+    color: white;
+}
+
+/**Style Achieves */
+
+
+
+/**Style About Us */
+.about {
+    margin-top: 150px;
+    background-image: url("../images/Rectangle 51.png");
+    background-size: cover;
+}
+
+.aboutBackground {
+    width: 80%;
+}
+
+.aboutBackground img {
+    width: 100%;
+}
+
+
+.infoAbout {
+    width: 75%;
+}
+
+.infoAbout h2 {
+    color: #52C3D6;
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.infoAbout p:nth-child(2) {
+    font-family: Space Grotesk;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.infoAbout p:nth-child(3) {
+    font-family: Red Hat Display;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.infoAbout ul {
+    margin-top: 35px;
+    text-align: left;
+}
+
+.infoAbout ul li {
+    list-style: none;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px -30px;
+}
+
+.infoAbout ul li i {
+    color: #EB2F4A;
+    margin-right: 5px;
+}
+
+.infoAbout button {
+    margin: 20px -100px;
+}
+
+/**Style About Us */
+
+
+/**Style Section delivery */
+.delivery {
+    margin-top: 120px;
+}
+
+.frames {
+    margin-top: 35px;
+}
+
+.delivery p {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52C3D6;
+
+}
+
+.delivery h2 {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.frame {
+    width: 13%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+/**Style Section delivery */
+/**talented */
+
+
+.talented {
+    margin-top: 120px;
+    background-image: url("../images/Rectangle 34.png");
+    background-size: cover;
+}
+
+#creative {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #52C3D6;
+
+}
+
+#work {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.tabs {
+    margin-top: 80px;
+    background-image: url("../images/Rectangle 34.png");
+    background-size: cover;
+}
+
+.nav-link {
+    color: #52C3D6 !important;
+    font-family: Space Grotesk;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none !important;
+    padding: 10px;
+}
+
+li .active {
+    border-bottom: 4px solid #292D32 !important;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.nav {
+    border: none !important;
+}
+
+/**talented */
+
+
+/**Section Portflio */
+.portflio {
+    background: url("../images/Rectangle 59.png");
+    background-size: cover;
+    margin: 180px auto;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.arrow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #52C3D6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bigDivPhone {
+    margin-left: 100px;
+}
+
+.infoPortflio p:first-child {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #52C3D6;
+}
+
+.infoPortflio p:last-child {
+    font-family: Space Grotesk;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.taxes {
+    text-align: left;
+}
+
+.taxes .special, .taxes span {
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.taxes span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #52C3D6;
+}
+
+.taxes p {
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CDCDCD;
+}
+
+.phoneProtflio {
+    width: 80%;
+    position: relative;
+    z-index: 5;
+}
+
+.phoneProtflio img {
+    width: 100%;
+}
+
+.phoneProtflio .screen {
+    position: absolute;
+    top: 2%;
+    right: 32.9%;
+    width: 52%;
+    height: 85%;
+    z-index: -1;
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+}
+
+.view {
+    text-align: left;
+    margin-top: 45px;
+}
+
+/**Section Portflio */
+
+
+/**Style partners */
+.partners p {
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #52C3D6;
+}
+
+/**Style partners */
+
+@media(max-width:767px) {
+    .heroImage {
+        width: 100%;
+    }
+
+    .aboutBackground img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .infoAbout {
+        text-align: center;
+        width: 100%;
+    }
+
+    .delivery h2 {
+        width: 100%;
+    }
+
+    .frames {
+        flex-wrap: wrap;
+    }
+
+    .frame {
+        flex: 0 0 48%;
+        /* Two frames in a row on smaller screens */
+    }
+    .minds{
+        display: none
+    }
+}
