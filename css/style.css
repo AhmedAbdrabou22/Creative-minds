@@ -91,19 +91,19 @@ input:checked+.switch:active::before {
 }
 
 .minds {
-    font-size: 100px;
-    color: #faf8f8;
-    font-weight: 700;
-    line-height: 255.2px;
-    text-align: center;
+    background: linear-gradient(180deg, rgba(28, 52, 76, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
     font-family: Space Grotesk;
-    /* width: 1553px; */
-    /* height: 255px; */
-    letter-spacing: 50px;
-    z-index: -1;
+    font-size: 180px;
+    font-weight: 700;
+    text-align: center;
+    width:1553px !important;
+    /* background-color: red; */
     position: absolute;
-    top: -130%;
-    left: 0;
+    top:-100%;
 }
 
 .heroImage {
@@ -775,11 +775,12 @@ li .active {
     margin-bottom: -205px;
     font-size: 200px;
     -webkit-background-clip: text;
-    background-clip:text;
+    background-clip: text;
     color: transparent;
     display: inline-block;
 }
-.teamsintro{
+
+.teamsintro {
     margin-top: -75px
 }
 
