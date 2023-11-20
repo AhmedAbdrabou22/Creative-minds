@@ -1034,6 +1034,18 @@ li .active {
     body{
         overflow-x: hidden !important;
     }
+    
+.nav-link {
+    color: #52c3d6 !important;
+    font-family: Space Grotesk;
+    font-size: 11px !important;
+    font-weight: 700;
+    /* line-height: 23px; */
+    letter-spacing: 0em;
+    text-align: center;
+    border: none !important;
+    padding: 10px;
+}
 }
 
 .dark-mode {
