@@ -1022,6 +1022,18 @@ li .active {
         position: absolute;
         top:-8%;
     }
+    .gradient-text {
+        background: linear-gradient(180deg, rgba(28, 52, 76, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+        margin-bottom: -205px;
+        font-size: 50px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 .dark-mode {
