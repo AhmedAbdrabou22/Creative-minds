@@ -1050,11 +1050,12 @@ li .active {
     }
     .now{
         width:100px;
+        font-size: 10px !important;
+    }
+    .phoneProtflio {
+        width: 80%;
+        position: relative;
+        z-index: 5;
+        margin-top: 25px;
     }
 }
-
-.dark-mode {
-    background: #121212;
-    color: #fff;
-}
-
