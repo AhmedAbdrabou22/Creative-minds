@@ -41,9 +41,10 @@ window.onload = () => {
 
 
 
-document.getElementById('username').addEventListener('click', function() {
-    document.body.classList.toggle('dark-mode');
-    document.querySelectorAll('.frame').forEach((ele)=>{
-        ele.classList.toggle('frameData')
-    })
-});
+// document.getElementById('username').addEventListener('click', function() {
+//     document.body.classList.toggle('dark-mode');
+//     document.querySelector('.subscripe').classList.toggle('s');
+//     document.querySelectorAll('.frame').forEach((ele)=>{
+//         ele.classList.toggle('frameData')
+//     })
+// });
