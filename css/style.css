@@ -769,6 +769,20 @@ li .active {
     width: 100%;
 }
 
+/* تحديد linear gradient لنص */
+.gradient-text {
+    background: linear-gradient(180deg, rgba(28, 52, 76, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    margin-bottom: -205px;
+    font-size: 200px;
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+    display: inline-block;
+}
+.teamsintro{
+    margin-top: -75px
+}
+
 /**Section Teams */
 
 
@@ -849,11 +863,11 @@ li .active {
 .subscripe {
     background-image: url("../images/Rectangle 32.png");
     background-size: cover;
-    width:75%;
+    width: 75%;
     margin: auto;
     text-align: center;
     margin-top: 80px;
-    padding:50px;
+    padding: 50px;
 }
 
 .subscripe h2 {
@@ -864,36 +878,42 @@ li .active {
     letter-spacing: 0px;
     text-align: left;
 }
-.newSteller{
+
+.newSteller {
     position: relative;
 }
-#email{
+
+#email {
     border: 1px solid #E8E8E8;
     outline: none;
-    width:100%;
-    padding:20px;
+    width: 100%;
+    padding: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.newSteller button{
+
+.newSteller button {
     position: absolute;
     left: 61%;
     top: 13%;
 }
+
 /**Section map */
 
 
 /**Style Footer  */
-.footer{
+.footer {
     margin-top: 150px;
 }
-.footer ul{
+
+.footer ul {
     list-style: none;
 }
-.footer ul li{
+
+.footer ul li {
     display: inline-block;
     margin: 10px;
     transition: 0.3s all;
@@ -902,19 +922,23 @@ li .active {
     -ms-transition: 0.3s all;
     -o-transition: 0.3s all;
 }
-.footer ul li:hover{
+
+.footer ul li:hover {
     cursor: pointer;
     color: #52C3D6;
 }
-.footerData{
+
+.footerData {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.hr{
+
+.hr {
     width: 100%;
 }
+
 /**Style Footer  */
 
 @media (max-width: 767px) {
@@ -970,10 +994,12 @@ li .active {
     .success p:first-child {
         text-align: center;
     }
-    .subscripe{
-        width:100%;
+
+    .subscripe {
+        width: 100%;
     }
-    .footerData , .logoFooter{
+
+    .footerData, .logoFooter {
         margin: auto;
         text-align: center;
     }
