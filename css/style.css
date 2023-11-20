@@ -1025,6 +1025,21 @@ li .active {
 }
 
 .dark-mode {
-    background-color: #333 !important; /* لون الخلفية في وضع الظلام */
-    color: #fff; /* لون النص في وضع الظلام */
+    background:#121212;
+    color:#fff;
+}
+.mainHeader , .talented , .about , .tabs , .portflio  , .subscripe{
+    background-image:none;
+}
+.subscripe{
+    border: 1px solid white;
+}
+.frame{
+    background-color: #1C344C;
+}
+.logo{
+    background-color: white;
+}
+.navbar-toggler{
+    color: white !important;
 }
