@@ -970,9 +970,6 @@ li .active {
         /* Two frames in a row on smaller screens */
     }
 
-    .minds {
-        display: none;
-    }
 
     .componies div {
         margin-right: 20px;
@@ -1004,4 +1001,25 @@ li .active {
         margin: auto;
         text-align: center;
     }
+
+    .minds {
+        background: linear-gradient(180deg, rgba(28, 52, 76, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+        font-family: Space Grotesk;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        width:600px !important;
+        /* background-color: red; */
+        position: absolute;
+        top:-8%;
+    }
+}
+
+.dark-mode {
+    background-color: #333 !important; /* لون الخلفية في وضع الظلام */
+    color: #fff; /* لون النص في وضع الظلام */
 }

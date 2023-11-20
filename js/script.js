@@ -41,3 +41,7 @@ window.onload = () => {
 
 
 
+document.getElementById('username').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    console.log("hello");
+});
