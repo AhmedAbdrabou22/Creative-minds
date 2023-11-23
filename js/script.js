@@ -36,6 +36,7 @@ window.onload = () => {
     }
 
     const typingInterval = setInterval(type, 500);
+
 }
 
 
@@ -48,3 +49,25 @@ window.onload = () => {
 //         ele.classList.toggle('frameData')
 //     })
 // });
+
+
+let achiveNumbers = document.querySelectorAll('.achiveNumber')
+
+// console.log(achiveNumbers);
+
+window.onscroll = ()=>{
+    if(window.scrollY === 1000){
+        let num1 = 0;
+        achiveNumbers.forEach((ele)=>{
+            let time= setInterval(()=>{
+                num1 +=1;
+                ele.innerHTML ="+" + num1
+                if(+ele.innerHTML < +ele.getAttribute('value')){
+                    ele.innerHTML ="+" + num1
+                }else{
+                    clearInterval(time)
+                }
+            } , 20)
+        })
+    }
+}
