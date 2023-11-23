@@ -104,6 +104,7 @@ input:checked+.switch:active::before {
     /* background-color: red; */
     position: absolute;
     top: -100%;
+    z-index: -1;
 }
 
 .heroImage {
